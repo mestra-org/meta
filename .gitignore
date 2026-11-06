@@ -15,3 +15,7 @@
 /mautrix-meta
 /mautrix-meta-v2
 /start
+
+# The production inventory (real host, user and port) stays out of this
+# public fork; CI writes it from secrets, see .github/workflows/release.yml.
+/deploy/ansible/inventory.ini
